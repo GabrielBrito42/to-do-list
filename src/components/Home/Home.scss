@@ -1,0 +1,61 @@
+.home-container{
+  font-size: 14pt;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  h2{
+    text-align: center;
+    font-family: cursive;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .align-radio{
+    margin-left: 6px;
+  }
+
+  .task-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .task-input{
+    width: 90%;
+  }
+
+  .toggle{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  span{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .toggle-div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .task-div{
+    padding: 20px;
+  }
+
+  .icon{
+    padding-bottom: 6px;
+  }
+}
