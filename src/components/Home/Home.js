@@ -35,8 +35,6 @@ const Home = () => {
     localStorage.setItem('todolist', JSON.stringify(filteredList));
   }
 
-  console.log(filteredList);
-
   return (
     <div className="home-container">
       <div className="container">
